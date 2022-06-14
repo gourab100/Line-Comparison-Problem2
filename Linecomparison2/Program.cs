@@ -11,5 +11,13 @@ if (line1 == line2)
 {
     Console.WriteLine("to equal");
 }
+else if (line1 < line2 )
+{
+    Console.WriteLine("line2 greater then line1");
+}
+else
+{
+    Console.WriteLine("line2 is less");
+}
 
 
