@@ -2,9 +2,14 @@
 Class1 line= new Class1();
 
 double line1= line.lengthofline(2, 4, 6, 7);
-double line2=line.lengthofline(12, 53, 19, 42);
+double line2= line.lengthofline(2, 4, 6, 7);
 
 Console.WriteLine(line1);
 Console.WriteLine(line2);
+
+if (line1 == line2)
+{
+    Console.WriteLine("to equal");
+}
 
 
